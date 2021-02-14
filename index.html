@@ -56,7 +56,7 @@
       </div>
     </div>
   </nav>
-  <div>
+  <div id="about">
       <h2>Một chút về tớ</h2>
       <span class="label label-info">Giới thiệu</span>
       <p>Tớ là Trần Ngọc Thanh Vân, sinh nhật 9 tháng 7 năm 2000, cung Cự Giải. Hiện tại mình đang sinh sống và học tập tại thành phố Hồ Chí Minh. Mình thích mọi người
@@ -79,7 +79,7 @@
 <script>
 $(document).ready(function(){
   // Add smooth scrolling to all links in navbar + footer link
-  $("a, footer").on('click', function(event) {
+  $("a, footer, div").on('click', function(event) {
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
       // Prevent default anchor click behavior
